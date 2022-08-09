@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+    /*
+        Colors 
+    */
+    --white: #FFFFFF;
+    --green: #253D32;
+    --hacks: #78847D;
+    --blue: #14183E;
+
+    /*
+        Font Size
+    */
+    --text-sm: 16px;
+    --text-base: 18px;
+    --text-lg: 20px;
+    --text-xl: 24px;
+    --text-2xl: 32px;
+    --text-3xl: 40px;
+    --text-4xl: 44px;
+    --text-5xl: 96px;
+}
+
+body {
+    margin: 0;
+
+    font-family: 'Rubik', sans-serif;
+    color: var(--hacks);
+
+    background: var(--white);
+}
+
+h1{
+    margin: 0;
+
+    font-size: var(--text-5xl);
+    color: var(--white);
+}
+
+/*
+Header
+*/
+.container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(/image/header/hero.png);
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    padding-top: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: var(--text-xl);
+    color: var(--white);
+}
+
+.menu__list{
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    column-gap: 52px;
+
+    list-style: none;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.header__button{
+    padding: 18px 36px;
+
+    border: 1px solid #EDFF81;
+    border-radius: 116px;
+    align-items: center;
+    color: var(--white);
+    font-size: var(--text-sm);
+    background: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+.header__information{
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+}
+
+.header__text-3xl{
+    font-size: var(--text-3xl);
+    color: var(--white);
+    opacity: 0.8;
+}
+
+.header__text-lg{
+    font-size: var(--text-lg);
+    color: var(--white);
+    width: 686px;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.button__start{
+    padding: 27px 62px;
+
+    background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
+    box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
+    border-radius: 192px;
+    color: var(--white);
+}
+
+.get-started{
+    margin-top: 72px;
+    margin-bottom: 240px;
+
+    display: flex;
+    justify-content: center;
+}
