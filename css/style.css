@@ -518,6 +518,10 @@ Header
     padding-bottom: 10px;
 }
 
+.footer__text {
+    font-size: var(--text-lg);
+}
+
 .footer__social-network {
     display: flex;
     column-gap: 24px;
