@@ -214,8 +214,8 @@ Header
 
 }
 
-.button__start {
-    padding: 27px 62px;
+.button {
+    padding: 24px 62px;
 
     border: #FFFFFF 1px solid;
     background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
@@ -223,7 +223,14 @@ Header
     border-radius: 192px;
     color: var(--white);
 
+    font-size: var(--text-lg);
+    font-weight: 600;
+
     cursor: pointer;
+}
+
+.button--lg {
+    padding: 28px 80px;
 }
 
 .get-started {
@@ -328,6 +335,14 @@ Header
     cursor: pointer;
 }
 
+.information__link span {
+    text-decoration: underline;
+}
+
+.information__link:hover span {
+    text-decoration: none;
+}
+
 .link__see-more {
     grid-column: span 5;
 
@@ -336,7 +351,9 @@ Header
 
 .about-us {
     margin-top: 140px;
+}
 
+.about-us__wrapper {
     display: flex;
     justify-content: space-between;
     column-gap: 152px;
@@ -344,7 +361,7 @@ Header
 
 .about__logo {
     height: 295px;
-    aspect-ratio: 10 / 6;
+    aspect-ratio: 480 / 184;
 
     padding: 24px 16px;
 
@@ -375,12 +392,12 @@ Header
 }
 
 .advantages {
-    margin: 100px auto;
+    padding: 100px 0;
+
+    background-color: #F6FBF9;
 }
 
 .advantages__head {
-    margin: 100px auto;
-
     text-align: center;
 }
 
@@ -413,7 +430,7 @@ Header
 }
 
 .subscribe__wrapper {
-    padding: 100px 130px;
+    padding: 100px 0 100px 130px;
 
     grid-column: 8 span;
 }
@@ -471,21 +488,6 @@ Header
     color: var(--blue);
     font-size: var(--text-base);
     font-weight: 600;
-}
-
-.subscribe-form__button {
-    padding: 28px 80px;
-
-    font-size: var(--text-lg);
-    font-weight: 600;
-    color: #FFFFFF;
-
-    background: linear-gradient(328.68deg, #98AA28 13.03%, #D6FF7E 120.61%);
-    box-shadow: 0px 34px 50px rgba(7, 63, 67, 0.07);
-    border-radius: 192px;
-    border-color: rgba(255, 255, 255, 0.7);
-    text-align: center;
-    cursor: pointer;
 }
 
 .footer {
