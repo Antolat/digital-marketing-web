@@ -93,7 +93,7 @@ Header
 }
 
 .header {
-    background-image: url(/image/header/hero.png);
+    background-image: url("../image/header/hero.png");
     background-repeat: no-repeat;
     background-size: cover;
 
